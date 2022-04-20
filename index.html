@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is stopwatch container in which two main conatiners are container and btn-container to store the HTML  -->
+    <div id="container" >
+        <div id="time">
+            <h1 id="heading">Digital Stop Watch</h1>
+            <!-- This is Hour section -->
+            <span class="digit" id="hr">00</span>
+            <span class="txt">Hr</span>
+            <!-- This is minute section -->
+            <span class="digit" id="min">00</span>
+            <span class="txt">Min</span>
+            <!-- This is second sectio -->
+            <span class="digit" id="sec">00</span>
+            <span class="txt">Sec</span>
+            <!-- This is 100 part of second -->
+            <span class="digit" id="count">00</span>
+
+        </div>
+        <div id="btn-container">
+            <!-- There are total three button in the btn-container section which is START,STOP and RESET -->
+            <button class="btn" onclick="start()">START</button>
+            <button class="btn" onclick="stop()">STOP</button>
+            <button class="btn" onclick="reset()">RESET</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

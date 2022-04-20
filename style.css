@@ -1,0 +1,45 @@
+body{
+    /* Here we have given css to the entire body and added one background imgae for attractive look and some flex properties */
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image:url(5.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+    
+
+}
+#heading{
+    /* This is heading(Digital Stop Watch) properties and font sizes */
+    font-size: 50px;
+    margin-bottom: -1px;
+}
+
+.digit{
+    /* In this we have given font-size and some properties to the stopwatch 00 00 00 */
+    font-size: 100px;
+    box-shadow: 0px 0px 6px 4px rgb(119, 115, 115);
+    border-radius: 20px;
+    margin: 5px;
+}
+.txt{
+    /* This is the bold properties to the Hr min sec next to the 00 00 00 */
+    font-weight: bold;
+}
+.btn{
+    /* Some effect to the Button and size-adjustment properties */
+    background-color: rgb(26, 26, 55);
+    color: white;
+    border-radius: 25%;
+    margin-top: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    /* This is hover part and box-shadow to the button when cursor is on the button */
+    background-color: grey;
+    box-shadow: 0px 0px 6px 4px rgb(64, 64, 58);
+    transition: 0.5s;
+}
